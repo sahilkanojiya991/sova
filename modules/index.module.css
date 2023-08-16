@@ -1,0 +1,300 @@
+.dObjectsChild {
+    position: absolute;
+    top: 0;
+    left: 549.19px;
+    border-radius: 70px 0 0 60px;
+    background-color: var(--color-white);
+    width: 969px;
+    height: 986px;
+  }
+  .find3dObjects {
+    position: absolute;
+    top: 173px;
+    left: 19.19px;
+    letter-spacing: 0.08em;
+    line-height: 42px;
+    font-weight: 500;
+    display: inline-block;
+    width: 545px;
+    height: 268px;
+  }
+  .vectorIcon {
+    position: absolute;
+    height: 6.9%;
+    width: 4.41%;
+    top: 4.06%;
+    right: 94.32%;
+    bottom: 89.05%;
+    left: 1.26%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .abstractionIcon,
+  .abstractionIcon1,
+  .abstractionIcon2 {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .abstractionIcon {
+    height: 65.02%;
+    width: 39.56%;
+    top: 25.86%;
+    right: 53.46%;
+    bottom: 9.12%;
+    left: 6.98%;
+    display: none;
+  }
+  .abstractionIcon1,
+  .abstractionIcon2 {
+    height: 63.5%;
+    width: 42.99%;
+    top: 31.3%;
+    right: 57.01%;
+    bottom: 5.2%;
+    left: 0;
+  }
+  .abstractionIcon2 {
+    height: 63.64%;
+    width: 36.39%;
+    top: 37.23%;
+    right: 62.16%;
+    bottom: -0.87%;
+    left: 1.45%;
+    display: none;
+  }
+  .dObjects {
+    position: absolute;
+    top: 0;
+    left: 20.81px;
+    width: 1518.19px;
+    height: 986px;
+  }
+  .englishUk {
+    position: relative;
+    letter-spacing: 0.08em;
+    line-height: 42px;
+  }
+  .languageChild {
+    position: relative;
+    width: 20.34px;
+    height: 12.77px;
+  }
+  .language {
+    position: absolute;
+    top: 39px;
+    left: 1298px;
+    width: 164.95px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+    font-size: 18px;
+    color: var(--color-gray);
+  }
+  .eMailAddress,
+  .fullName,
+  .or {
+    position: absolute;
+    line-height: 42px;
+  }
+  .or {
+    top: 0;
+    left: 244px;
+    font-size: 24px;
+    letter-spacing: 0.08em;
+  }
+  .eMailAddress,
+  .fullName {
+    top: 65px;
+    left: 0;
+  }
+  .eMailAddress {
+    top: 157px;
+  }
+  .loginDetailsChild,
+  .loginDetailsInner,
+  .loginDetailsItem {
+    position: absolute;
+    top: 138.98px;
+    left: 0.99px;
+    width: 510.01px;
+    height: 5.02px;
+  }
+  .loginDetailsInner,
+  .loginDetailsItem {
+    top: 233.98px;
+  }
+  .loginDetailsInner {
+    top: 323.98px;
+  }
+  .password {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 42px;
+  }
+  .blind1Icon,
+  .frame {
+    position: absolute;
+    top: 20px;
+    left: 469px;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+  }
+  .frame {
+    top: 248px;
+    left: 0;
+    width: 491px;
+    height: 42px;
+  }
+  .loginDetails {
+    position: absolute;
+    top: 385px;
+    left: 756px;
+    width: 511px;
+    height: 329px;
+    font-size: var(--font-size-base);
+    color: var(--color-gray);
+  }
+  .createAccount1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 0.08em;
+    line-height: 42px;
+  }
+  .googleLogoIconPngTranspare {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    object-fit: cover;
+  }
+  .signUpWith {
+    position: relative;
+    line-height: 42px;
+  }
+  .frame2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xs);
+    background-color: var(--color-snow);
+    border: 1px solid var(--color-silver);
+    box-sizing: border-box;
+    width: 250px;
+    height: 62.03px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-5xs) var(--padding-xs) 12.027023315429688px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+  }
+  .facebook5121Icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+  .frame3 {
+    position: absolute;
+    top: 0;
+    left: 275px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-snow);
+    border: 1px solid var(--color-silver);
+    box-sizing: border-box;
+    width: 250px;
+    height: 62.03px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-5xs) var(--padding-xs) 12.027023315429688px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+  .createAccount,
+  .frame1 {
+    position: absolute;
+    width: 525px;
+  }
+  .frame1 {
+    top: 99px;
+    left: 0;
+    height: 62.03px;
+    overflow: hidden;
+    font-size: var(--font-size-base);
+    color: var(--color-gray);
+  }
+  .createAccount {
+    top: 173px;
+    left: 770px;
+    height: 161.03px;
+    color: #000;
+  }
+  .frame4 {
+    border-radius: var(--br-xs);
+    background-color: var(--color-powderblue-100);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    border: 1px solid #b4aeae;
+    box-sizing: border-box;
+    width: 525px;
+    height: 77px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 17px 153px;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .span {
+    color: var(--color-steelblue);
+  }
+  .logIn {
+    color: var(--color-powderblue-100);
+  }
+  .span1 {
+    font-weight: 600;
+    color: var(--color-steelblue);
+  }
+  .alreadyHaveAnContainer {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 42px;
+    color: var(--color-gray);
+  }
+  .button {
+    position: absolute;
+    top: 743px;
+    left: 770px;
+    width: 525px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    font-size: 26px;
+  }
+  .signUpPage {
+    position: relative;
+    background-color: #b0d8da;
+    width: 100%;
+    height: 982px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  
