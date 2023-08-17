@@ -1,300 +1,482 @@
-.dObjectsChild {
-    position: absolute;
-    top: 0;
-    left: 549.19px;
-    border-radius: 70px 0 0 60px;
-    background-color: var(--color-white);
-    width: 969px;
-    height: 986px;
-  }
-  .find3dObjects {
-    position: absolute;
-    top: 173px;
-    left: 19.19px;
-    letter-spacing: 0.08em;
-    line-height: 42px;
-    font-weight: 500;
-    display: inline-block;
-    width: 545px;
-    height: 268px;
-  }
-  .vectorIcon {
-    position: absolute;
-    height: 6.9%;
-    width: 4.41%;
-    top: 4.06%;
-    right: 94.32%;
-    bottom: 89.05%;
-    left: 1.26%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .abstractionIcon,
-  .abstractionIcon1,
-  .abstractionIcon2 {
-    position: absolute;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
-  }
-  .abstractionIcon {
-    height: 65.02%;
-    width: 39.56%;
-    top: 25.86%;
-    right: 53.46%;
-    bottom: 9.12%;
-    left: 6.98%;
-    display: none;
-  }
-  .abstractionIcon1,
-  .abstractionIcon2 {
-    height: 63.5%;
-    width: 42.99%;
-    top: 31.3%;
-    right: 57.01%;
-    bottom: 5.2%;
-    left: 0;
-  }
-  .abstractionIcon2 {
-    height: 63.64%;
-    width: 36.39%;
-    top: 37.23%;
-    right: 62.16%;
-    bottom: -0.87%;
-    left: 1.45%;
-    display: none;
-  }
-  .dObjects {
-    position: absolute;
-    top: 0;
-    left: 20.81px;
-    width: 1518.19px;
-    height: 986px;
-  }
-  .englishUk {
-    position: relative;
-    letter-spacing: 0.08em;
-    line-height: 42px;
-  }
-  .languageChild {
-    position: relative;
-    width: 20.34px;
-    height: 12.77px;
-  }
-  .language {
-    position: absolute;
-    top: 39px;
-    left: 1298px;
-    width: 164.95px;
-    height: 42px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 4px;
-    font-size: 18px;
-    color: var(--color-gray);
-  }
-  .eMailAddress,
-  .fullName,
-  .or {
-    position: absolute;
-    line-height: 42px;
-  }
-  .or {
-    top: 0;
-    left: 244px;
-    font-size: 24px;
-    letter-spacing: 0.08em;
-  }
-  .eMailAddress,
-  .fullName {
-    top: 65px;
-    left: 0;
-  }
-  .eMailAddress {
-    top: 157px;
-  }
-  .loginDetailsChild,
-  .loginDetailsInner,
-  .loginDetailsItem {
-    position: absolute;
-    top: 138.98px;
-    left: 0.99px;
-    width: 510.01px;
-    height: 5.02px;
-  }
-  .loginDetailsInner,
-  .loginDetailsItem {
-    top: 233.98px;
-  }
-  .loginDetailsInner {
-    top: 323.98px;
-  }
-  .password {
-    position: absolute;
-    top: 0;
-    left: 0;
-    line-height: 42px;
-  }
-  .blind1Icon,
-  .frame {
-    position: absolute;
-    top: 20px;
-    left: 469px;
-    width: 22px;
-    height: 22px;
-    overflow: hidden;
-  }
-  .frame {
-    top: 248px;
-    left: 0;
-    width: 491px;
-    height: 42px;
-  }
-  .loginDetails {
-    position: absolute;
-    top: 385px;
-    left: 756px;
-    width: 511px;
-    height: 329px;
-    font-size: var(--font-size-base);
-    color: var(--color-gray);
-  }
-  .createAccount1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    letter-spacing: 0.08em;
-    line-height: 42px;
-  }
-  .googleLogoIconPngTranspare {
-    position: relative;
-    width: 22px;
-    height: 22px;
-    object-fit: cover;
-  }
-  .signUpWith {
-    position: relative;
-    line-height: 42px;
-  }
-  .frame2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: var(--br-xs);
-    background-color: var(--color-snow);
-    border: 1px solid var(--color-silver);
-    box-sizing: border-box;
-    width: 250px;
-    height: 62.03px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-5xs) var(--padding-xs) 12.027023315429688px;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 18px;
-  }
-  .facebook5121Icon {
-    position: relative;
-    width: 20px;
-    height: 20px;
-    object-fit: cover;
-  }
-  .frame3 {
-    position: absolute;
-    top: 0;
-    left: 275px;
-    border-radius: var(--br-xs);
-    background-color: var(--color-snow);
-    border: 1px solid var(--color-silver);
-    box-sizing: border-box;
-    width: 250px;
-    height: 62.03px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-5xs) var(--padding-xs) 12.027023315429688px;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-xl);
-  }
-  .createAccount,
-  .frame1 {
-    position: absolute;
-    width: 525px;
-  }
-  .frame1 {
-    top: 99px;
-    left: 0;
-    height: 62.03px;
-    overflow: hidden;
-    font-size: var(--font-size-base);
-    color: var(--color-gray);
-  }
-  .createAccount {
-    top: 173px;
-    left: 770px;
-    height: 161.03px;
-    color: #000;
-  }
-  .frame4 {
-    border-radius: var(--br-xs);
-    background-color: var(--color-powderblue-100);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
-    border: 1px solid #b4aeae;
-    box-sizing: border-box;
-    width: 525px;
-    height: 77px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    padding: 17px 153px;
-    align-items: flex-end;
-    justify-content: flex-end;
-  }
-  .span {
-    color: var(--color-steelblue);
-  }
-  .logIn {
-    color: var(--color-powderblue-100);
-  }
-  .span1 {
-    font-weight: 600;
-    color: var(--color-steelblue);
-  }
-  .alreadyHaveAnContainer {
-    position: relative;
-    font-size: var(--font-size-base);
-    line-height: 42px;
-    color: var(--color-gray);
-  }
-  .button {
-    position: absolute;
-    top: 743px;
-    left: 770px;
-    width: 525px;
-    height: 139px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-xl);
-    font-size: 26px;
-  }
-  .signUpPage {
-    position: relative;
-    background-color: #b0d8da;
-    width: 100%;
-    height: 982px;
-    overflow: hidden;
-    text-align: left;
-    font-size: var(--font-size-13xl);
-    color: var(--color-white);
-    font-family: var(--font-poppins);
-  }
-  
+.noiseIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 118px;
+  object-fit: cover;
+  display: none;
+  mix-blend-mode: overlay;
+}
+.icon,
+.lineRoundedpasswordIcon {
+  position: relative;
+  overflow: hidden;
+}
+.icon {
+  flex: 1;
+  max-width: 100%;
+  height: 36px;
+}
+.lineRoundedpasswordIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.linkItem {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.link,
+.masterLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.masterLink {
+  align-items: center;
+  gap: var(--gap-7xs);
+}
+.link {
+  align-items: flex-start;
+}
+.frameChild {
+  position: relative;
+  width: 0;
+  height: 30px;
+}
+.linkParent {
+  justify-content: center;
+  gap: 10px;
+}
+.frameGroup,
+.linkGroup,
+.linkParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.linkGroup {
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.frameGroup {
+  justify-content: flex-start;
+  gap: 217px;
+}
+.unitedKingdomIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.en {
+  position: relative;
+  font-weight: 500;
+}
+.enWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.clarityloginLineIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonText {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+}
+.login1 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  text-align: center;
+  font-size: 16px;
+  color: var(--color-black);
+}
+.getApp {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+.button {
+  border-radius: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) 30px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--color-white);
+}
+.frameContainer {
+  gap: var(--gap-xl);
+  text-align: left;
+}
+.frameContainer,
+.frameParent,
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  gap: 372px;
+}
+.parent {
+  position: absolute;
+  top: 39px;
+  left: 73px;
+  width: 1301px;
+  gap: 30px;
+}
+.newHeaderChild {
+  position: absolute;
+  top: 354px;
+  left: 504px;
+  background-color: #e0f7fe;
+  width: 720px;
+  height: 783px;
+}
+.newHeader {
+  position: absolute;
+  top: 0;
+  left: -2px;
+  width: 1440px;
+  height: 118px;
+  overflow: hidden;
+  display: none;
+  color: var(--color-whitesmoke);
+  font-family: var(--font-degular-display-demo);
+}
+.loginToYour {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.08em;
+  font-weight: 500;
+}
+.voremIpsumDolor {
+  margin: 0;
+}
+.voremIpsumDolorContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 22px;
+  letter-spacing: -0.08em;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  white-space: pre-wrap;
+}
+.text {
+  position: absolute;
+  top: 204px;
+  left: 387px;
+  width: 660px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: 54px;
+  font-family: var(--font-space-grotesk);
+}
+.forgotPassword {
+  position: absolute;
+  top: 755px;
+  left: 645px;
+  font-size: 20px;
+  text-decoration: underline;
+  letter-spacing: -0.08em;
+}
+.privacyPolicy {
+  position: relative;
+  letter-spacing: -0.08em;
+}
+.links {
+  position: absolute;
+  top: 916px;
+  left: calc(50% - 722px);
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 70px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: var(--color-gray-100);
+}
+.frameIcon {
+  position: absolute;
+  top: 0;
+  left: 527px;
+  width: 40px;
+  height: 124.82px;
+  overflow: hidden;
+}
+.inputText1 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.inputText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 0;
+}
+.labelText1 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.labelText {
+  margin: 0 !important;
+  position: absolute;
+  top: -16px;
+  left: -4px;
+  background-color: var(--m3-sys-dark-surface);
+  display: none;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+  font-size: var(--m3-body-small-size);
+  color: var(--m3-sys-dark-on-surface);
+  font-family: var(--m3-body-small);
+}
+.content {
+  flex: 1;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+.stateLayer,
+.textField {
+  align-self: stretch;
+  height: 72px;
+  display: flex;
+  justify-content: flex-start;
+}
+.stateLayer {
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  flex-direction: row;
+  padding: var(--padding-5xs) 0 var(--padding-5xs) var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: center;
+}
+.textField {
+  border-radius: var(--br-9xs);
+  flex-direction: column;
+  align-items: flex-start;
+}
+.supportingText1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+}
+.supportingText {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-base) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--m3-body-small-size);
+  color: var(--m3-sys-dark-on-surface-variant);
+  font-family: var(--m3-body-small);
+}
+.textFieldDark {
+  background-color: #222;
+  width: 440px;
+}
+.textField1,
+.textFieldDark,
+.textFieldDark1 {
+  border-radius: var(--br-5xs);
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textField1 {
+  align-self: stretch;
+}
+.textFieldDark1 {
+  background-color: #222122;
+  width: 440px;
+}
+.labelText4 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.stateLayer2 {
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttonChild {
+  position: relative;
+  width: 27.02px;
+  height: 21.89px;
+}
+.button2 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(90deg, #a9a5fd, #ebd75d);
+  height: 72px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.dontHaveAn {
+  font-weight: 300;
+}
+.registerNow {
+  font-weight: 600;
+  color: var(--color-white);
+}
+.supportingText5 {
+  flex: 1;
+  position: relative;
+}
+.button1,
+.fields,
+.supportingText4 {
+  display: flex;
+  justify-content: flex-start;
+}
+.supportingText4 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-5xs) 0;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--m3-body-small-size);
+  color: var(--color-gray-100);
+}
+.button1,
+.fields {
+  flex-direction: column;
+  align-items: center;
+}
+.button1 {
+  width: 326.14px;
+  text-align: center;
+  color: var(--color-black);
+}
+.fields {
+  position: absolute;
+  top: 0;
+  left: 0;
+  gap: var(--gap-base);
+}
+.button3,
+.ionlogoGoogleIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ionlogoGoogleIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.button3 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vectorIcon {
+  position: relative;
+  width: 32.08px;
+  height: 32px;
+}
+.stateLayer4 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-base);
+  align-items: center;
+  justify-content: space-between;
+}
+.vectorIcon1 {
+  position: relative;
+  width: 26.96px;
+  height: 32px;
+}
+.socials {
+  position: absolute;
+  top: 0;
+  left: 639px;
+  width: 366.96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: center;
+  color: var(--color-white);
+}
+.frame,
+.login {
+  overflow: hidden;
+}
+.frame {
+  position: absolute;
+  top: 427px;
+  left: 178px;
+  width: 1079px;
+  height: 267px;
+  text-align: left;
+  color: var(--color-gray-100);
+}
+.login {
+  position: relative;
+  background-color: #1d1d1f;
+  width: 100%;
+  height: 984px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
